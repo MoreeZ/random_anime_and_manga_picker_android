@@ -167,7 +167,7 @@ class SideDrawer extends Component {
                 <Icon style={styles.eachIcon} type="Entypo" name="share" />
                 <Text style={styles.eachtext}>Share the app</Text>
               </TouchableOpacity>
-              <TouchableOpacity
+              {/* <TouchableOpacity
                 style={styles.eachtextbutton}
                 onPress={() => {
                   Linking.openURL(
@@ -177,7 +177,7 @@ class SideDrawer extends Component {
               >
                 <Icon style={styles.eachIcon} type="Entypo" name="paypal" />
                 <Text style={styles.eachtext}>Donate</Text>
-              </TouchableOpacity>
+              </TouchableOpacity> */}
               <View style={styles.divider} />
             </View>
 
